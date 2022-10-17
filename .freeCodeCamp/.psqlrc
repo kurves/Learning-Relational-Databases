@@ -1,2 +1,12 @@
+<<<<<<< HEAD
 \pset border 2
+=======
+<<<<<<< HEAD
+\pset border 2
+=======
+\out | tee ~/queryResults.log
+\pset border 2
+\pset title ' '
+>>>>>>> 10a59f051b51366815d993ec78d5692d36731659
+>>>>>>> f223590ed2ce6761d0c3e9d33cabfc7f240431a8
 \pset pager off

@@ -1,17 +1,45 @@
 {
+<<<<<<< HEAD
   "name": "freecodecamp",
+=======
+<<<<<<< HEAD
+  "name": "freecodecamp",
+=======
+  "name": "coderoad",
+>>>>>>> 10a59f051b51366815d993ec78d5692d36731659
+>>>>>>> f223590ed2ce6761d0c3e9d33cabfc7f240431a8
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "programmatic-test": "mocha --reporter=mocha-tap-reporter",
     "test": "mocha"
+=======
+<<<<<<< HEAD
+    "programmatic-test": "mocha --reporter=mocha-tap-reporter",
+    "test": "mocha"
+=======
+    "programmatic-test": "mocha --config .mocharc.json",
+    "test": "mocha --config .mocharc.json"
+>>>>>>> 10a59f051b51366815d993ec78d5692d36731659
+>>>>>>> f223590ed2ce6761d0c3e9d33cabfc7f240431a8
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "mocha": "^7.2.0",
     "mocha-tap-reporter": "^0.1.3",
+<<<<<<< HEAD
     "pg": "^8.2.1"
+=======
+<<<<<<< HEAD
+    "pg": "^8.2.1"
+=======
+    "shell-quote": "^1.7.2",
+    "pg": "^8.2.1",
+    "tail": "^2.0.4"
+>>>>>>> 10a59f051b51366815d993ec78d5692d36731659
+>>>>>>> f223590ed2ce6761d0c3e9d33cabfc7f240431a8
   }
 }
