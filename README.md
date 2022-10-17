@@ -10,10 +10,11 @@ This is a from the freeCodeCamp learning material
 
 
 - Create database with; 
+
 ```CREATE DATABASE databasename```
 
 - Connect to the table database;
-```\c databasename````
+```\c databasename```
 
 
 - Create table with
