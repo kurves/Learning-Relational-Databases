@@ -467,3 +467,36 @@ git remote add origin git@github.com:kurves/Learn-Relational-Databases
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
 git add .
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git commit -m 'create database'
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git pull origin master --allow-unrelated-histories
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote add origin git@github.com:kurves/Learning-Relational-Databases
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote show
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote -v
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote add origin git@github.com:kurves/Learning-Relational-Databases
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote origin
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote remove origin
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote -v
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote add origin git@github.com:kurves/Learning-Relational-Databases
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git add .
