@@ -306,3 +306,58 @@ echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+man sed
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed 's/^ *| T *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed T 's/^ *| *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed 's/^ T *| *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | -E sed 's/^ *| *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed -E 's/^ *| *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed -E 's/^ *| *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed -r 's/^ *| *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed awk -F 's/^ *| *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed -r 's/^ *| *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed -r 's/^**$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed -r 's/^ bike-shop.sh learn-bash-and-sql-by-building-a-bike-rental-shop "|" *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed -r 's/^*"|"*$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed -e 's/^*"|"*$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed -e 's/^* | *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed -e 's/^ *| *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed -r 's/^ *| *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
