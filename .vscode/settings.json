@@ -27,6 +27,10 @@
   "extensions.autoCheckUpdates": false,
   "extensions.ignoreRecommendations": true,
   "extensions.showRecommendationsOnlyOnDemand": true,
+<<<<<<< HEAD
+=======
+  "files.autoSave": "afterDelay",
+>>>>>>> f2e0d8ee0c06afa8e8312b3bd3ae62bb368c75f5
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
@@ -36,7 +40,11 @@
     ".vscode": true,
     ".gitignore": true,
     ".freeCodeCamp": true,
+<<<<<<< HEAD
     "learn-salon-appointment-scheduler": true
+=======
+    "learn-bash-and-sql-by-building-a-bike-rental-shop": true
+>>>>>>> f2e0d8ee0c06afa8e8312b3bd3ae62bb368c75f5
   },
   "html.autoClosingTags": false,
   "npm.fetchOnlinePackageInfo": false,

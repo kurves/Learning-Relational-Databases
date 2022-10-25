@@ -7,7 +7,11 @@ const { exec } = require('promisify-child-process');
 const readFile = util.promisify(fs.readFile);
 const readdir = util.promisify(fs.readdir);
 
+<<<<<<< HEAD
 const getLastCommand = async (dir = process.cwd()) => {
+=======
+const getLastCommand = async (howManyBack = 0, parse = true, dir = process.cwd()) => {
+>>>>>>> f2e0d8ee0c06afa8e8312b3bd3ae62bb368c75f5
   const pathToBashLogs = path.join(dir, '../../', '.bash_history');
   const bashLogs = await readFile(pathToBashLogs, 'utf8');
 
@@ -16,10 +20,20 @@ const getLastCommand = async (dir = process.cwd()) => {
   }
 
   const logs = bashLogs.split('\n');
+<<<<<<< HEAD
   const lastLog = logs[logs.length - 2];
   const parsedCommand = parseCommand(lastLog);
 
   return parsedCommand;
+=======
+  const lastLog = logs[logs.length - howManyBack - 2];
+
+  if(parse) {
+    return parseCommand(lastLog);
+  } else {
+    return lastLog;
+  }
+>>>>>>> f2e0d8ee0c06afa8e8312b3bd3ae62bb368c75f5
 };
 
 const getNextCommand = async (dir = process.cwd()) => {
@@ -76,7 +90,11 @@ const getDirectoryContents = async (dir = process.cwd()) => {
 };
 
 const getPgLogs = async (dir = process.cwd()) => {
+<<<<<<< HEAD
   const pathToPgLogs = path.join(dir, './test', 'pg.log');
+=======
+  const pathToPgLogs = path.join(dir, '../../', 'pg.log');
+>>>>>>> f2e0d8ee0c06afa8e8312b3bd3ae62bb368c75f5
   const pgLogs = await readFile(pathToPgLogs, 'utf8');
 
   if (!pgLogs) {
@@ -86,7 +104,11 @@ const getPgLogs = async (dir = process.cwd()) => {
 };
 
 const getLastLog = async (removeWhiteSpace = false, logsBack = 1) => {
+<<<<<<< HEAD
   const pathToPgLogs = path.join(process.cwd(), './test', 'pg.log');
+=======
+  const pathToPgLogs = path.join(process.cwd(), '../../', 'pg.log');
+>>>>>>> f2e0d8ee0c06afa8e8312b3bd3ae62bb368c75f5
   const pgLogs = await readFile(pathToPgLogs, 'utf8');
 
   if (!pgLogs) {
@@ -102,7 +124,11 @@ const getLastLog = async (removeWhiteSpace = false, logsBack = 1) => {
 };
 
 const getLastQueryResult = async () => {
+<<<<<<< HEAD
   const pathToQueryResults = path.join(process.cwd(), './test', 'queryResults.log');
+=======
+  const pathToQueryResults = path.join(process.cwd(), '../../', 'queryResults.log');
+>>>>>>> f2e0d8ee0c06afa8e8312b3bd3ae62bb368c75f5
   const queryResults = await readFile(pathToQueryResults, 'utf8');
 
   if (!queryResults) {
@@ -126,6 +152,18 @@ const getFileContents = async (file = process.cwd()) => {
   return fileContents.toString();
 };
 
+<<<<<<< HEAD
+=======
+const canExecute = async function(file) {
+  try {
+    fs.accessSync(file, fs.constants.X_OK);
+    return true;
+  } catch (err) {
+    return false;
+  }
+}
+
+>>>>>>> f2e0d8ee0c06afa8e8312b3bd3ae62bb368c75f5
 const getScriptOutput = async function (command) {
   let nextInput = 1;
 
@@ -149,6 +187,7 @@ const getScriptOutput = async function (command) {
   return stdout;
 };
 
+<<<<<<< HEAD
 const canExecute = async function(file) {
   try {
     fs.accessSync(file, fs.constants.X_OK);
@@ -158,6 +197,8 @@ const canExecute = async function(file) {
   }
 }
 
+=======
+>>>>>>> f2e0d8ee0c06afa8e8312b3bd3ae62bb368c75f5
 exports.getLastCommand = getLastCommand;
 exports.getNextCommand = getNextCommand;
 exports.getCwd = getCwd;
@@ -167,5 +208,10 @@ exports.getPgLogs = getPgLogs;
 exports.getLastLog = getLastLog;
 exports.getLastQueryResult = getLastQueryResult;
 exports.getFileContents = getFileContents;
+<<<<<<< HEAD
 exports.getScriptOutput = getScriptOutput;
 exports.canExecute = canExecute;
+=======
+exports.canExecute = canExecute;
+exports.getScriptOutput = getScriptOutput;
+>>>>>>> f2e0d8ee0c06afa8e8312b3bd3ae62bb368c75f5

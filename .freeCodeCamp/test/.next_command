@@ -1,0 +1,511 @@
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo hello terminal
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+psql --username=freecodecamp --dbname=postgres
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+psql --username=freecodecamp --dbname=postgres
+touch bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+chmod +x bike_shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+chmod +x bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+[[ a =~ [0-9] ]]
+echo $?
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+[[ a1 =~ [0-9] ]]
+echo $?
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+[[ a1 =~ ^[0-9]$ ]]
+echo $?
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+[[ 1 =~ ^[0-9]$ ]]
+echo $?
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+[[ 11 =~ ^[0-9]$ ]]
+echo $?
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+[[ 11 =~ ^[0-9]$+ ]]
+echo $?
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+[[ 11 =~ ^[0-9]+ ]]
+echo $?
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+[[ 11 =~ ^[0-9]+$ ]]
+echo $?
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+[[ 11 != ^[0-9]+$ ]]
+echo $?
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+[[ ./bike-shop.sh =~ ^[0-9]+$ ]]
+echo $?
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+[[ ./bike-shop.sh =~ ^[0-9]+$ ]]
+echo $?
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+[[! 11 =~ ^[0-9]+$ ]]
+echo $?
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+[[ ! 11 =~ ^[0-9]+$ ]]
+echo $?
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+psql --username=freecodecamp --dbname=postgres
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo '28 | Mountain'
+sed 's/ /=/g'
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo '28 | Mountain'
+sed 's/ /=/'''
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo '28 | Mountain'
+sed 's/ /'''
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo '28 | Mountain'
+sed 's/ //'''
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo '28 | Mountain'
+sed 's/ //g'
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo '28 | Mountain'
+sed 's/ //'
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo '28 | Mountain'
+sed 's/ |//'
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo '28 | Mountain'
+sed 's/ |/"/'
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo ' M e '
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo 'M e ')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed 's/ //')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed 's/ //g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed '^s/ //g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed 's^/ //g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed 's/^ //g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed 's/^ //g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed 's/^ //*g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed 's/^ //g*')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed 's/^* //g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed 's/^ bike-shop.sh learn-bash-and-sql-by-building-a-bike-rental-shop //g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed 's/^ *//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed 's/^ $//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed 's/ $//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed 's/ $//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed 's/ *//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed 's/ *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed 's/^ *| *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+man sed
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+man sed
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed 's/^ *| T *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed T 's/^ *| *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed 's/^ T *| *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | -E sed 's/^ *| *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed -E 's/^ *| *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed -E 's/^ *| *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed -r 's/^ *| *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed awk -F 's/^ *| *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed -r 's/^ *| *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed -r 's/^**$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed -r 's/^ bike-shop.sh learn-bash-and-sql-by-building-a-bike-rental-shop "|" *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed -r 's/^*"|"*$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed -e 's/^*"|"*$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed -e 's/^* | *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed -e 's/^ *| *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "$(echo ' M e ' | sed -r 's/^ *| *$//g')."
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+2
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bike-shop.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+pg_dump bikes > bikes.sql
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+clear
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote show
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote show coderoad
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote set-url coderoad git@github.com:freeCodeCamp/learn-bash-and-sql-by-building-a-bike-rental-shop
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+ssh-keygen -t ed25519 -C 'kavssimply@gmail.com'
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+cat /home/codeally/.ssh/id_ed25519.pub
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+ssh -T git@github.com
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote add origin git@github.com:kurves/Learn-Relational-Databases
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git add .
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git commit -m 'create database'
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git pull origin master --allow-unrelated-histories
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote add origin git@github.com:kurves/Learning-Relational-Databases
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote show
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote -v
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote add origin git@github.com:kurves/Learning-Relational-Databases
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote origin
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote remove origin
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote -v
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote add origin git@github.com:kurves/Learning-Relational-Databases
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git add .
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git commit -m 'create a bike rental database'
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git pull origin master --allow-unrelated-histories
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git add .
